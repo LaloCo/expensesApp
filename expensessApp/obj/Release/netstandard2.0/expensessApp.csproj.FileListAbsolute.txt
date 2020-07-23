@@ -1,0 +1,17 @@
+C:\Users\sieme\source\repos\expensessApp\expensessApp\expensessApp\bin\Release\netstandard2.0\expensessApp.deps.json
+C:\Users\sieme\source\repos\expensessApp\expensessApp\expensessApp\bin\Release\netstandard2.0\expensessApp.dll
+C:\Users\sieme\source\repos\expensessApp\expensessApp\expensessApp\bin\Release\netstandard2.0\ref\expensessApp.dll
+C:\Users\sieme\source\repos\expensessApp\expensessApp\expensessApp\bin\Release\netstandard2.0\expensessApp.pdb
+C:\Users\sieme\source\repos\expensessApp\expensessApp\expensessApp\obj\Release\netstandard2.0\expensessApp.csprojAssemblyReference.cache
+C:\Users\sieme\source\repos\expensessApp\expensessApp\expensessApp\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\sieme\source\repos\expensessApp\expensessApp\expensessApp\obj\Release\netstandard2.0\Views\CategoriesPage.xaml.g.cs
+C:\Users\sieme\source\repos\expensessApp\expensessApp\expensessApp\obj\Release\netstandard2.0\Views\ExpensesPage.xaml.g.cs
+C:\Users\sieme\source\repos\expensessApp\expensessApp\expensessApp\obj\Release\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\sieme\source\repos\expensessApp\expensessApp\expensessApp\obj\Release\netstandard2.0\Views\NewExpensesPage.xaml.g.cs
+C:\Users\sieme\source\repos\expensessApp\expensessApp\expensessApp\obj\Release\netstandard2.0\expensessApp.AssemblyInfoInputs.cache
+C:\Users\sieme\source\repos\expensessApp\expensessApp\expensessApp\obj\Release\netstandard2.0\expensessApp.AssemblyInfo.cs
+C:\Users\sieme\source\repos\expensessApp\expensessApp\expensessApp\obj\Release\netstandard2.0\expensessApp.csproj.CoreCompileInputs.cache
+C:\Users\sieme\source\repos\expensessApp\expensessApp\expensessApp\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\sieme\source\repos\expensessApp\expensessApp\expensessApp\obj\Release\netstandard2.0\expensessApp.dll
+C:\Users\sieme\source\repos\expensessApp\expensessApp\expensessApp\obj\Release\netstandard2.0\ref\expensessApp.dll
+C:\Users\sieme\source\repos\expensessApp\expensessApp\expensessApp\obj\Release\netstandard2.0\expensessApp.pdb

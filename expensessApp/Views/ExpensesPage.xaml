@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="expensessApp.Views.ExpensesPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="clr-namespace:expensessApp.ViewModels"
+    xmlns:behavior="clr-namespace:expensessApp.Behaviors"
+    mc:Ignorable="d">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <vm:ExpensesVM x:Key="Vm" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Command="{Binding Source={StaticResource Vm}, Path=AddExpenseCommand}" IconImageSource="add.png" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+
+
+        <ListView ItemsSource="{Binding Source={StaticResource Vm}, Path=Expenses}">
+            <ListView.Behaviors>
+                <behavior:ListViewBehavior/>
+            </ListView.Behaviors>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <SwipeView>
+                            <SwipeView.RightItems>
+                                <SwipeItems Mode="Execute">
+                                <SwipeItem 
+                                    BackgroundColor="AliceBlue"
+                                    Command="{Binding Source={StaticResource Vm}, Path=DeleteExpenseCommand}"
+                                    CommandParameter="{Binding .}"
+                                    Text="Delete" />
+                                </SwipeItems>
+                            </SwipeView.RightItems>
+                            <StackLayout Orientation="Horizontal" Spacing="50">
+                                <Label Text="{Binding Name}" />
+                                <Label Text="{Binding Category}" FontSize="Small"/>
+                            </StackLayout>
+
+                        </SwipeView>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+
+
+        <!--    -->
+    </ContentPage.Content>
+</ContentPage>
