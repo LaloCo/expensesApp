@@ -24,6 +24,7 @@ namespace expensessApp.Droid.Dependencies
         public Task Show(string title, string message, string filePath)
         {
             var intent = new Intent(Intent.ActionSend);
+            intent.SetType("text/plain");
             var documentUri = FileProvider.GetUriForFile(CrossCurrentActivity.Current.AppContext, "com.companyname.expensessapp.provider", new Java.IO.File(filePath));
             intent.PutExtra(Intent.ExtraStream, documentUri);
             intent.PutExtra(Intent.ExtraText, title);
